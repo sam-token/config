@@ -11,6 +11,7 @@ crossPaths := false
 
 libraryDependencies += "net.liftweb" %% "lift-json" % "2.5" % "test"
 libraryDependencies += "com.novocode" % "junit-interface" % "0.11" % "test"
+libraryDependencies += "org.pcollections" % "pcollections" % "3.0.2"
 
 externalResolvers += "Scala Tools Snapshots" at "http://scala-tools.org/repo-snapshots/"
 
